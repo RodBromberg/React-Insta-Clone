@@ -1,7 +1,7 @@
 import React from 'react'
 import './SearchBar.css';
 
-const SearchBar = () => {
+const SearchBar = (props) => {
   return (
   
     <div className="search-bar-wrapper">
@@ -18,7 +18,7 @@ const SearchBar = () => {
       </div>
     
       <div>
-        <input class='search_input' type="text" placeholder="Search" />
+        <input  onKeyDown={props.searchPosts} class='search_input' type="text" placeholder="Search" />
       </div>
 
       <div className="social-wrapper">

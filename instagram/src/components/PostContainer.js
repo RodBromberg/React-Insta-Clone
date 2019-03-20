@@ -1,15 +1,37 @@
 import React from 'react';
 import CommentSection from './CommentSection'
 import Post from './Post'
+import Likes from './LikeSection'
+
+
+
+
+// const increment = () => {
+//   if(this.state.count === this.props.post.likes) {
+//     this.setState({
+//      count: this.state.count + 1
+//     })
+//   } else if(this.state.count + 1 === this.state.count + 1){
+//     this.setState({
+//       count: this.state.count - 1
+//     })
+//   }
+
+//   } 
 
 const PostContainer = props => {
     return (
     <div>
     {props.data.map(p => {
         return (
+       
         <Post 
         post={p}
+    
+        
+
         />
+
      ) })}
     </div>
     )

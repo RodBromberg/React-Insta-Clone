@@ -11,11 +11,11 @@ const Comment = props => {
   );
 };
 
-Comment.propTypes = {
-    comment: PropTypes.shape({
-        text: propTypes.string,
-        username: propTypes.string
-    })
-}
+// Comment.propTypes = {
+//     comment: PropTypes.shape({
+//         text: propTypes.string,
+//         username: propTypes.string
+//     })
+// }
 
 export default Comment;
