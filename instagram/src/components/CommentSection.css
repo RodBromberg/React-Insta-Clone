@@ -1,0 +1,11 @@
+.comment-section {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    line-height: 2;
+    padding: 10px;
+}
+
+.comment {
+    padding: 5px;
+}

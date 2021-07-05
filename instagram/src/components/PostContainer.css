@@ -1,0 +1,32 @@
+.comment-container {
+    border: solid gray;
+    width: 634px;
+    margin: 0 auto;
+    margin-top: -1%;
+}
+
+.likes {
+    position: relative;
+    right: 275px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.icon-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    margin-top: 1.2rem;
+}
+
+.top-container {
+    display: flex;
+    margin-left: 3.6rem;
+    border: solid lightgrey;
+    margin: 0 auto;
+    width: 635px;
+}
